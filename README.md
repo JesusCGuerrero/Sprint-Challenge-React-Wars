@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a component based library for writing applications. The problem it tries to solve is seemlesly rerendering pages based on changes in "state", making intuitive UI for single page applications possible.
+
 - [ ] What does it mean to _think_ in react?
+
+It means to think an application as a hierarchy of many components.
 
 - [ ] Describe state.
 
+State is a built in object where we store property values. We can use state to change these values, and when they do, the component re-renders.
+
 - [ ] Describe props.
 
+Props are arguments passed into React components. We use them to pass data from one component to another.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects can determine what changes will warrant a re-render. We can place certain values at the end of a useEffect so that the page will only re-render if that specific value, state or prop changes.
 
 ## Project Set Up
 
