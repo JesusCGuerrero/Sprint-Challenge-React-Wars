@@ -6,3 +6,34 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardTitle {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+p {
+  border-top: 1px solid rgb(126, 126, 126);
+  padding: 10px;
+  font-size: .9rem;
+  border-bottom: 1px solid rgb(126, 126, 126);
+}
